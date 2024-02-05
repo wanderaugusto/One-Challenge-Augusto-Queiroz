@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Challenge Augusto Queiroz</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="" alt="" />
+    </header>
+
+    <div id="box">
+      <section id="textandbuutton">
+        <textarea name="" id="text-area" cols="30" rows="10"></textarea>
+        <div>
+          <img
+            src="./images/bi_exclamation-circle-fill.png"
+            alt="icone de atenção"
+          />
+          <span>Apenas letras minúsculas e sem acento.</span>
+          <button class="button cript" onclick="display()">Criptografar</button>
+          <button class="button descript" onclick="decript()">
+            Descriptografar
+          </button>
+        </div>
+      </section>
+
+      <section id="text-cript">
+        <div id="no-text">
+          <img
+            src="./images/High quality products 1 1.svg"
+            alt="Nenhum texto criptografado"
+          />
+          <h1>Nenhuma mensagem encontrada</h1>
+          <span
+            >Digite um texto que você deseja criptografar ou
+            descriptografar.</span
+          >
+        </div>
+        <div id="cripted" style="visibility: hidden">
+          <textarea name="" id="text-result" cols="30" rows="10"></textarea>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <span>Augusto Queiroz</span>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
